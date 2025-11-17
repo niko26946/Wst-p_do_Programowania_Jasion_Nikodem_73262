@@ -11,3 +11,10 @@
 
 
 
+
+wiersze = int(input("Podaj liczbę wierszy: "))
+
+for i in range(1, wiersze + 1):
+    print(" " * (wiersze - i) + "* " * i)
+
+
