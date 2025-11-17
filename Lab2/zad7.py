@@ -3,6 +3,7 @@ def opcja_a():
     print("Witaj", imie)
 
 
+
 def opcja_b():
     wiek = input("Podaj swój wiek: ")
     print("Twój wiek to:", wiek)
