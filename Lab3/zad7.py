@@ -40,3 +40,4 @@ Y.clear()
 print("Po wyczyszczeniu:")
 print("X =", X)
 print("Y =", Y)
+

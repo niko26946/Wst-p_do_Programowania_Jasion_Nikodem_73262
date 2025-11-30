@@ -27,3 +27,4 @@ print("c) Ilość wystąpień 'kt':", ilosc_kt)
 s = int(input("\nPodaj wartość s: "))
 dluzsze_niz_s = sum(1 for elem in krotka if len(elem) > s)
 print("d) Ilość ciągów dłuższych niż", s, ":", dluzsze_niz_s)
+

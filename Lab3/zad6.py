@@ -25,3 +25,4 @@ if ostatni_miesiac > srednia:
     print("Trzeba zacisnąć pasa")
 else:
     print("Wszystko okay")
+
