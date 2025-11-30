@@ -1,39 +1,29 @@
 import random
-n = int(input("Podaj dlugosc listy:"))
-z = int(input("Podaj maksymalna dlugosc każdego ze slow:"))
+import string
+
+n = int(input("Podaj liczbę elementów listy (n): "))
+x = int(input("Podaj maksymalną długość ciągu znaków (x): "))
+
 lista = []
-for i in range(n):
-    d = random.randint(1, x)
-    znaki = ["a", "b", "c", "d", "e", "f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-    slowo=""
-    for j in range(d):
-    znak = random.choice(znaki)
+for _ in range(n):
+    dl = random.randint(1, x)
+    ciag = ''.join(random.choice(string.ascii_lowercase) for _ in range(dl))
+    lista.append(ciag)
 
-    slowo+=znak
-    lista.append(slowo)
+print("\nUtworzona lista:", lista)
 
-#print(lista)
-krotka =tuple(lista)
-print(krotka)
-#A
-suma_znakow = 0
-for slowo in krotka:
-    suma_znakow += len(slowo)
-print(suma_znakow)
-#B
-suma_k=0
-for slowo in krotka:
-    for znak in slowo:
-        if znak =="k":
-            suma_k += 1
+krotka = tuple(lista)
+print("Krotka:", krotka)
 
-print(suma_k)
+ilosc_znakow = sum(len(elem) for elem in krotka)
+print("\na) Ilość znaków w krotce:", ilosc_znakow)
 
-#C
-suma_kt=0
-for slowo in krotka:
-    for i in range(len(slowo)-1):
-            if slowo[i:i+2] =="kt":
-                suma_kt += 1
-print(suma_kt)
-#D
+ilosc_k = sum(elem.count('k') for elem in krotka)
+print("b) Ilość liter 'k':", ilosc_k)
+
+ilosc_kt = sum(elem.count('kt') for elem in krotka)
+print("c) Ilość wystąpień 'kt':", ilosc_kt)
+
+s = int(input("\nPodaj wartość s: "))
+dluzsze_niz_s = sum(1 for elem in krotka if len(elem) > s)
+print("d) Ilość ciągów dłuższych niż", s, ":", dluzsze_niz_s)
