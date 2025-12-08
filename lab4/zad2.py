@@ -1,7 +1,6 @@
-def pole_trapezu(a,b,h):
-    if (a >=0) and (b>=0) and (h>=0):
-        return ((a+b))*h)/2
-    else:
-        return None
+def pole_trapezu(a, b, h):
+    pole = (a + b) * h / 2
+    print("Pole trapezu wynosi:", pole)
 
-print(pole_trapezu(
+# przykładowe wywołanie
+pole_trapezu(5, 7, 4)
