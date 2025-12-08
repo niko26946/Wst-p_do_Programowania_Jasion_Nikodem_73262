@@ -7,3 +7,4 @@ def srednia(lista):
 dane = [4, 7, 2, 10]
 wynik = srednia(dane)
 print("Średnia wynosi:", wynik)
+

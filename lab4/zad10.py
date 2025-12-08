@@ -8,3 +8,4 @@ def hanoi(n, start, pomocniczy, cel):
 
 # przykładowe wywołanie
 hanoi(3, 'A', 'B', 'C')
+

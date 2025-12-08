@@ -16,3 +16,4 @@ def oblicz_bmi(waga, wzrost):
 
 # przykładowe wywołanie
 oblicz_bmi(80, 1.80)
+

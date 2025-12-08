@@ -7,3 +7,4 @@ def fibonacci(n):
 
 # przykładowe wywołanie
 print(fibonacci(10))  # 55
+

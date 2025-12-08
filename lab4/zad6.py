@@ -8,3 +8,4 @@ print(przedstaw_sie.__doc__)
 # przykładowe wywołania
 przedstaw_sie("Anna", 30)
 przedstaw_sie("Kamil")   # tutaj wiek przyjmie wartość domyślną 20
+

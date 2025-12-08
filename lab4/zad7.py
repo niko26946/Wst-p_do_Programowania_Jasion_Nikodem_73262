@@ -1,6 +1,7 @@
 import math
 
-def pole_trojkata(a, b, c):
+def \
+    pole_trojkata(a, b, c):
     try:
         # sprawdzenie, czy wszystkie boki są dodatnie
         if a <= 0 or b <= 0 or c <= 0:

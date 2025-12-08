@@ -5,3 +5,4 @@ def potega(a, n):
 
 # przykładowe wywołanie
 print(potega(2, 5))  # 2^5 = 32
+

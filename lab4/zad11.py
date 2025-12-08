@@ -3,3 +3,4 @@ def odwroc_string(s):
 
 # przykładowe wywołanie
 print(odwroc_string("Python"))  # nohtyP
+

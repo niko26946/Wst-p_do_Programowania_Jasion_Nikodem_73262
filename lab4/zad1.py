@@ -6,3 +6,4 @@ def pole_kola(r):
 
 # przykładowe wywołanie
 pole_kola(5)
+

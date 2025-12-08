@@ -8,3 +8,4 @@ def sprawdz_dodatnia(x):
 
 # przykładowe wywołanie
 sprawdz_dodatnia(-3)
+

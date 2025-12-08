@@ -4,3 +4,4 @@ def pole_trapezu(a, b, h):
 
 # przykładowe wywołanie
 pole_trapezu(5, 7, 4)
+
